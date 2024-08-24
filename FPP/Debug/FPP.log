@@ -1,0 +1,55 @@
+﻿Build started 12/19/2023 1:37:37 PM.
+     1>Project "c:\Users\LENOVO\documents\visual studio 2012\Projects\FPP\FPP\FPP.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Circle.cpp Cutils.cpp Cylinder.cpp main.cpp Player.cpp Point.cpp Quad.cpp Rectangular.cpp
+         Rectangular.cpp
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fpp\fpp\rectangular.h(14): error C2864: 'Rectangular::angle' : only static const integral data members can be initialized within a class
+         Quad.cpp
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fpp\fpp\quad.h(14): error C2864: 'Quad::rotationAngle' : only static const integral data members can be initialized within a class
+         Point.cpp
+         Player.cpp
+         main.cpp
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fpp\fpp\rectangular.h(14): error C2864: 'Rectangular::angle' : only static const integral data members can be initialized within a class
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fpp\fpp\main.cpp(12): error C2143: syntax error : missing ')' before '{'
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fpp\fpp\main.cpp(12): error C2059: syntax error : ')'
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fpp\fpp\main.cpp(12): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fpp\fpp\main.cpp(12): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fpp\fpp\main.cpp(12): error C2059: syntax error : ','
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fpp\fpp\main.cpp(13): error C2143: syntax error : missing ')' before '{'
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fpp\fpp\main.cpp(13): error C2059: syntax error : ')'
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fpp\fpp\main.cpp(13): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fpp\fpp\main.cpp(13): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fpp\fpp\main.cpp(13): error C2059: syntax error : ','
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fpp\fpp\main.cpp(14): error C2143: syntax error : missing ')' before '{'
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fpp\fpp\main.cpp(14): error C2059: syntax error : ')'
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fpp\fpp\main.cpp(14): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fpp\fpp\main.cpp(14): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fpp\fpp\main.cpp(14): error C2059: syntax error : ','
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fpp\fpp\main.cpp(15): error C2143: syntax error : missing ')' before '{'
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fpp\fpp\main.cpp(15): error C2059: syntax error : ')'
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fpp\fpp\main.cpp(15): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fpp\fpp\main.cpp(15): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fpp\fpp\main.cpp(15): error C2059: syntax error : ','
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fpp\fpp\main.cpp(95): error C2065: 're' : undeclared identifier
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fpp\fpp\main.cpp(95): error C2228: left of '.draw' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fpp\fpp\main.cpp(97): error C2065: 're2' : undeclared identifier
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fpp\fpp\main.cpp(97): error C2228: left of '.draw' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fpp\fpp\main.cpp(99): error C2065: 're3' : undeclared identifier
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fpp\fpp\main.cpp(99): error C2228: left of '.draw' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fpp\fpp\main.cpp(102): error C2065: 're4' : undeclared identifier
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fpp\fpp\main.cpp(102): error C2228: left of '.draw' must have class/struct/union
+                 type is ''unknown-type''
+         Cylinder.cpp
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fpp\fpp\cylinder.h(12): error C2864: 'Cylinder::angle' : only static const integral data members can be initialized within a class
+     1>c:\users\lenovo\documents\visual studio 2012\projects\fpp\fpp\cylinder.h(13): error C2864: 'Cylinder::angle2' : only static const integral data members can be initialized within a class
+         Cutils.cpp
+         Circle.cpp
+         Generating Code...
+     1>Done Building Project "c:\Users\LENOVO\documents\visual studio 2012\Projects\FPP\FPP\FPP.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:06.11
